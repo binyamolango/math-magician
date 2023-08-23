@@ -16,41 +16,41 @@ Top.propTypes = {
 
 const Side1 = (props) => {
   return (
-    <div id="side-layer1" class="side-layer rect">
+    <button id="side-layer1" class="side-layer rect">
       <p class="side-value">{props.value1}</p>
-    </div>
+    </button>
   );
 }
 
 const Side2 = (props) => {
   return (
-    <div id="side-layer2" class="side-layer rect">
+    <button id="side-layer2" class="side-layer rect">
       <p class="side-value">{props.value2}</p>
-    </div>
+    </button>
   );
 }
 
 const Side3 = (props) => {
   return (
-    <div id="side-layer3" class="side-layer rect">
+    <button id="side-layer3" class="side-layer rect">
       <p class="side-value">{props.value3}</p>
-    </div>
+    </button>
   );
 }
 
 const Side4 = (props) => {
   return (
-    <div id="side-layer4" class="side-layer rect">
+    <button id="side-layer4" class="side-layer rect">
       <p class="side-value">{props.value4}</p>
-    </div>
+    </button>
   );
 }
 
 const Side5 = (props) => {
   return (
-    <div id="side-layer5" class="side-layer rect">
+    <button id="side-layer5" class="side-layer rect">
       <p class="side-value">{props.value5}</p>
-    </div>
+    </button>
   );
 }
 
@@ -92,105 +92,105 @@ class SideValue extends React.Component {
 
 const Main1 = (props) => {
   return (
-    <div id="main-layer1" class="main-layer rect">
+    <button id="main-layer1" class="main-layer rect">
       <p>{props.value1}</p>
-    </div>
+    </button>
   );
 }
 
 const Main2 = (props) => {
   return (
-    <div id="main-layer2" class="main-layer rect">
+    <button id="main-layer2" class="main-layer rect">
       <p>{props.value2}</p>
-    </div>
+    </button>
   );
 }
 
 const Main3 = (props) => {
   return (
-    <div id="main-layer3" class="main-layer rect">
+    <button id="main-layer3" class="main-layer rect">
       <p>{props.value3}</p>
-    </div>
+    </button>
   );
 }
 
 const Main4 = (props) => {
   return (
-    <div id="main-layer4" class="main-layer rect">
+    <button id="main-layer4" class="main-layer rect">
       <p>{props.value4}</p>
-    </div>
+    </button>
   );
 }
 
 const Main5 = (props) => {
   return (
-    <div id="main-layer5" class="main-layer rect">
+    <button id="main-layer5" class="main-layer rect">
       <p>{props.value5}</p>
-    </div>
+    </button>
   );
 }
 
 const Main6 = (props) => {
   return (
-    <div id="main-layer6" class="main-layer rect">
+    <button id="main-layer6" class="main-layer rect">
       <p>{props.value6}</p>
-    </div>
+    </button>
   );
 }
 
 const Main7 = (props) => {
   return (
-    <div id="main-layer7" class="main-layer rect">
+    <button id="main-layer7" class="main-layer rect">
       <p>{props.value7}</p>
-    </div>
+    </button>
   );
 }
 
 const Main8 = (props) => {
   return (
-    <div id="main-layer8" class="main-layer rect">
+    <button id="main-layer8" class="main-layer rect">
       <p>{props.value8}</p>
-    </div>
+    </button>
   );
 }
 
 const Main9 = (props) => {
   return (
-    <div id="main-layer9" class="main-layer rect">
+    <button id="main-layer9" class="main-layer rect">
       <p>{props.value9}</p>
-    </div>
+    </button>
   );
 }
 
 const Main10 = (props) => {
   return (
-    <div id="main-layer10" class="main-layer rect">
+    <button id="main-layer10" class="main-layer rect">
       <p>{props.value10}</p>
-    </div>
+    </button>
   );
 }
 
 const Main11 = (props) => {
   return (
-    <div id="main-layer11" class="main-layer rect">
+    <button id="main-layer11" class="main-layer rect">
       <p>{props.value11}</p>
-    </div>
+    </button>
   );
 }
 
 const Main12 = (props) => {
   return (
-    <div id="main-layer12" class="main-layer rect">
+    <button id="main-layer12" class="main-layer rect">
       <p>{props.value12}</p>
-    </div>
+    </button>
   );
 }
 
 const Main13 = (props) => {
   return (
-    <div id="main-layer13" class="main-layer rect">
+    <button id="main-layer13" class="main-layer rect">
       <p>{props.value13}</p>
-    </div>
+    </button>
   );
 }
 
@@ -280,9 +280,9 @@ class MainLayer extends React.Component {
 
 const Bottom = () => {
   return (
-    <div class="large-rect">
+    <button class="large-rect">
       <p class="bottom-value">{defaultProps.value}</p>
-    </div>
+    </button>
   );
 }
 

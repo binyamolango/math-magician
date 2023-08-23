@@ -1,4 +1,6 @@
-const Body = (props) => {
+import '../App.css';
+
+const Calculator = () => {
   return (
     <div className="container grid">
 
@@ -34,7 +36,7 @@ const Body = (props) => {
         <button id="side-layer4" className="side-layer rect" label="+" />
       </div>
 
-      <div className="row6">
+      <div className="row6 rowSame">
         <button className="large-rect" label="0" />
         <button id="main-layer13" className="main-layer rect" label="." />
         <button id="side-layer5" className="side-layer rect" label="=" />
@@ -44,4 +46,4 @@ const Body = (props) => {
   );
 }
 
-export default Body;
+export default Calculator;

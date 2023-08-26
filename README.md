@@ -110,7 +110,6 @@ Example command:
   gem install
 ```
 --->
-
 ### Usage
 
 To run the project, execute the following command: `npm start`

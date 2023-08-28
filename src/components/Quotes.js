@@ -22,16 +22,13 @@ const Quotes = () => {
       });
   }, []);
 
-  if (loading) {
-    return (<div>loading...</div>);
-  }
-
   return (
     <div className="quote-display container">
       <h1>Random Quotes</h1>
-      <p className="quote">
+      { loading && <div>loading...</div> }
+      <quote className="quote">
         { quote.quote }
-      </p>
+      </quote>
       <p className="author">
         -
         { quote.author }

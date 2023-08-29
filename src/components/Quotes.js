@@ -12,10 +12,9 @@ const Quotes = () => {
       <h1>Random Quotes</h1>
       { loading && <div>loading...</div> }
       { error && <div>{error}</div> }
-      <quote className="quote">
+      <p className="quote">
         { data.quote }
-      </quote>
-      <p className="author">
+        {' '}
         -
         { data.author }
       </p>

@@ -14,15 +14,28 @@ button:active {
   border: 2px solid gray;
 }
 
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
 .container {
   width: 80%;
   max-width: 800px;
   margin: 10% auto;
 }
 
+.cal-title {
+  width: 100%;
+}
+
+.cal-title h2 {
+  margin: 0;
+}
+
 .grid {
   display: grid;
-  width: 500px;
+  width: 100%;
   height: 500px;
   grid-template-rows: repeat(6, 1fr);
   grid-template-columns: repeat(4, 1fr);

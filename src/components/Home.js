@@ -1,5 +1,5 @@
 const Home = () => (
-  <div className="home">
+  <div className="home container">
     <h2 className="home-title">Welcome to our page!</h2>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptatum, id minus

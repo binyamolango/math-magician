@@ -1,3 +1,81 @@
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  width: 80%;
+  max-width: 1440px;
+  margin: 10% auto;
+}
+
+/* header style */
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em 3em;
+  align-items: center;
+  background: lightblue;
+}
+
+.header {
+  border-bottom: 2px solid gray;
+}
+
+.content {
+  height: 60vh;
+}
+
+.title {
+  font-size: 2.5rem;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+}
+
+.nav-link:hover {
+  color: grey;
+}
+
+.nav-item:nth-of-type(2) {
+  border-left: 3px solid gray;
+  border-right: 3px solid gray;
+  margin: 0 2em;
+  padding: 0 2em;
+}
+
+/* home page style */
+
+.home-title {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.home p {
+  font-size: 1.5rem;
+  margin-top: 2em;
+}
+
+/* calculator page style */
+
+.cal-title {
+  width: 100%;
+}
+
+.cal-title h2 {
+  font-size: 3rem;
+}
+
 button {
   background: none;
   border: 1px solid rgb(165, 165, 165);
@@ -14,15 +92,9 @@ button:active {
   border: 2px solid gray;
 }
 
-.container {
-  width: 80%;
-  max-width: 800px;
-  margin: 10% auto;
-}
-
 .grid {
   display: grid;
-  width: 500px;
+  width: 100%;
   height: 500px;
   grid-template-rows: repeat(6, 1fr);
   grid-template-columns: repeat(4, 1fr);
@@ -56,4 +128,25 @@ button:active {
 .large-rect {
   grid-column: 1/3;
   background: lightgray;
+}
+
+/* quote page style */
+
+.quote-title {
+  font-size: 3rem;
+}
+
+.quote {
+  font-size: 1.5rem;
+}
+
+/* footer style */
+
+.footer {
+  border-top: 2px solid gray;
+  font-size: 1.25rem;
+}
+
+.footer h5 {
+  font-size: 1.5rem;
 }

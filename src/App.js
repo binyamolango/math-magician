@@ -4,6 +4,7 @@ import './App.css';
 import Calculator from './components/Calculator';
 import Quotes from './components/Quotes';
 import NavBar from './components/NavBar';
+import Home from './components/Home';
 
 const App = () => (
   <Router>
@@ -11,8 +12,9 @@ const App = () => (
       <NavBar />
       <div className="content">
         <Routes>
-          <Route path="/components/Calculator" element={<Calculator />} />
-          <Route path="/components/Quotes" element={<Quotes />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/Calculator" element={<Calculator />} />
+          <Route path="/Quotes" element={<Quotes />} />
         </Routes>
       </div>
     </div>

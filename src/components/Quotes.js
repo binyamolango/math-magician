@@ -9,7 +9,7 @@ const Quotes = () => {
 
   return (
     <div className="quote-display container">
-      <h1>Random Quotes</h1>
+      <h1 className="quote-title">Random Quotes</h1>
       { loading && <div>loading...</div> }
       { error && <div>{error}</div> }
       <p className="quote">

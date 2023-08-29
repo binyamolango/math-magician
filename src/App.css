@@ -1,3 +1,16 @@
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  width: 80%;
+  max-width: 1440px;
+  margin: 10% auto;
+}
+
+/* header style */
+
 .header,
 .footer {
   display: flex;
@@ -41,6 +54,8 @@
   padding: 0 2em;
 }
 
+/* home page style */
+
 .home-title {
   font-size: 4rem;
   text-align: center;
@@ -49,6 +64,16 @@
 .home p {
   font-size: 1.5rem;
   margin-top: 2em;
+}
+
+/* calculator page style */
+
+.cal-title {
+  width: 100%;
+}
+
+.cal-title h2 {
+  font-size: 3rem;
 }
 
 button {
@@ -65,25 +90,6 @@ button:hover {
 
 button:active {
   border: 2px solid gray;
-}
-
-.row {
-  display: flex;
-  justify-content: space-between;
-}
-
-.container {
-  width: 80%;
-  max-width: 1440px;
-  margin: 10% auto;
-}
-
-.cal-title {
-  width: 100%;
-}
-
-.cal-title h2 {
-  font-size: 3rem;
 }
 
 .grid {
@@ -123,6 +129,18 @@ button:active {
   grid-column: 1/3;
   background: lightgray;
 }
+
+/* quote page style */
+
+.quote-title {
+  font-size: 3rem;
+}
+
+.quote {
+  font-size: 1.5rem;
+}
+
+/* footer style */
 
 .footer {
   border-top: 2px solid gray;

@@ -1,9 +1,17 @@
-.header {
+.header,
+.footer {
   display: flex;
   justify-content: space-between;
   padding: 2em;
-  border-bottom: 2px solid gray;
   align-items: center;
+}
+
+.header {
+  border-bottom: 2px solid gray;
+}
+
+.footer {
+  border-top: 2px solid gray;
 }
 
 .nav-list {

@@ -36,4 +36,13 @@ describe('Operate', () => {
     const result = Operate(numberOne, numberTwo, operation);
     expect(result).toEqual('2');
   });
+
+  it('should give the correct remainder of two numbers', () => {
+    const numberOne = '10';
+    const numberTwo = '4';
+    const operation = '%';
+
+    const result = Operate(numberOne, numberTwo, operation);
+    expect(result).toEqual('2');
+  });
 });

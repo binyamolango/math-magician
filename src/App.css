@@ -6,7 +6,7 @@
 .container {
   width: 80%;
   max-width: 1440px;
-  margin: 10% auto;
+  margin: 8% auto;
 }
 
 /* header style */
@@ -81,15 +81,15 @@ button {
   border: 1px solid rgb(165, 165, 165);
   color: black;
   cursor: pointer;
-  font-size: larger;
+  font-size: 1.75rem;
 }
 
 button:hover {
-  border: 2px solid rgb(165, 165, 165);
+  border: 3px solid rgb(165, 165, 165);
 }
 
 button:active {
-  border: 2px solid gray;
+  border: 3px solid gray;
 }
 
 .grid {

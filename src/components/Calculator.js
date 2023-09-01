@@ -1,11 +1,11 @@
 import { useState } from 'react';
-import calculate from '../logic/calculate';
+import Calculate from '../logic/Calculate';
 
 const Calculator = () => {
   const [calculation, setCalculation] = useState({});
 
   const handleClick = (buttonName) => {
-    const newCalculation = calculate(calculation, buttonName);
+    const newCalculation = Calculate(calculation, buttonName);
     setCalculation(newCalculation);
   };
 
@@ -17,7 +17,7 @@ const Calculator = () => {
 
       <div className="grid">
 
-        <div className="top-layer">
+        <div data-testid="displayElement" className="top-layer">
           {calculation.next || calculation.total || '0'}
         </div>
 

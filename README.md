@@ -61,7 +61,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Will be available soon.
+[https://math-magician-dyo3.onrender.com](https://math-magician-dyo3.onrender.com)
 
 <!-- - [Live Demo Link](https://google.com) -->
 
